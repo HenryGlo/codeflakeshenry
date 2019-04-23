@@ -1,0 +1,84 @@
+body {
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.navbar .navbar-brand {
+    width: 50%;
+}
+.navbar .navbar-nav {
+    width: 100%;
+}
+.navbar .navbar-nav a {
+    color:#444444;
+    width: 19%;
+}
+
+.navbar .navbar-nav a:hover {
+    color:#ffc107;
+}
+section#home {
+    padding: 55px 0 20px 0;
+}
+section#home .title-home  {
+    font-family: 'Francois One', sans-serif;
+}
+section#home .title-home p {
+    font-size: 1.3em;
+    color:rgba(17, 17, 17, 0.41);
+}
+
+.btn-page {
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 12.5px 51px 16.5px;
+}
+section#home .img-home .img {
+    width: 80%;
+}
+section#home .img-home .img img {
+    width: 100%;
+}
+
+section#about1 {
+    padding: 40px 0;
+    border-bottom: 1px solid #D1D1D1;
+}
+section#about1 hr {
+    width: 10%;
+    border-top:1px solid #D1D1D1;
+}
+section#about1 h1 {
+    font-family: 'Sacramento', cursive;
+}
+section#about1 p {
+    font-size: 1.3em;
+}
+
+section#op {
+    padding: 50px 0;
+}
+
+section#op p.title {
+    color:#444444;
+    font-size: 1.2em;
+}
+section#op p.text {
+    font-size: 1.1em;
+}
+
+section#about2 {
+    padding: 40px 0;
+    background: #21213F;
+    color:white;
+}
+
+section#about2 h2 {
+    padding: 10px 0;
+}
+footer#contact {
+    padding: 30px 10%;
+}
+footer#contact div.ico div.cont div {
+    display: inline-block;
+}
