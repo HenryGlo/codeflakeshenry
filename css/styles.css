@@ -76,9 +76,42 @@ section#about2 {
 section#about2 h2 {
     padding: 10px 0;
 }
-footer#contact {
+section#about3 .title {
+    font-family: 'Francois One', sans-serif;
+}
+
+section#about3 .container .row div.img {
+    width: 70%;
+}
+section#about3 .container .row div.img img {
+    width: 100%;
+    padding-top:50px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+section#about3 .container .row div.img img:hover {
+    -webkit-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+
+section#contact {
+    background: #21213F;
     padding: 30px 10%;
 }
-footer#contact div.ico div.cont div {
+section#contact div.ico div.cont div {
     display: inline-block;
 }
+
+footer {
+    font-family: 'Francois One', sans-serif;
+    background:#2D2D56;
+}
+
+@media (max-width: 600px) {
+    section#about3 .container .row div.img {
+        width: 50%;
+    }
+  }
