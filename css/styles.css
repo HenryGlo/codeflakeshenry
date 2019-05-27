@@ -147,6 +147,13 @@ section#clients hr {
 section#clients .container-fluid {
     padding: 0 10%;
 }
+section#clients img{
+    width: 30%;
+    filter: grayscale(100%);
+}
+section#clients .row img:hover{
+    filter: grayscale(0%);
+}
 section#contact {
     background: #21213F;
     padding: 30px 10%;
